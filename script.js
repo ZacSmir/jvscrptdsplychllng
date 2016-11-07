@@ -6,6 +6,10 @@ function logArgs(args) {
 
 console.log(logArgs.toString())
 
+var usethis = logArgs.toString()
+
+
+
 var functionString = "how do I get the function as a string?"
 
 var consoleLogExample = $("how do I get the element where I want to put the example?")
@@ -14,6 +18,8 @@ var formattedExample = $("<pre>")
 
 
 
-formattedExample.text(contents)
+var formattedExample = usethis.text()
+
+
 
 consoleLogExample.html(formattedExample)
