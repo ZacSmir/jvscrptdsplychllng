@@ -22,5 +22,3 @@ formattedExample.text(usethis)
 
 
 $("#prething").append(formattedExample)
-
-consoleLogExample.html(formattedExample)
