@@ -21,5 +21,6 @@ var formattedExample = $("<pre>")
 formattedExample.text(usethis)
 
 
+$("#Prething").append(formattedExample)
 
 consoleLogExample.html(formattedExample)
