@@ -18,7 +18,7 @@ var formattedExample = $("<pre>")
 
 
 
-var formattedExample = usethis.text()
+formattedExample.text(usethis)
 
 
 
