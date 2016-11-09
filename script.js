@@ -26,7 +26,8 @@ $("#functionthing").append(otherformattedExample)
 //-----------------------------------------------
 //Function(Function)
 function otherfunction(){
-return a
+return a key was pressed
 }
-
-function functioninafunction(otherfunction){}
+keydown(otherfunction(e){
+        
+})
