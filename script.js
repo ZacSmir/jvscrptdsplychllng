@@ -28,7 +28,5 @@ $("#functionthing").append(otherformattedExample)
 function otherfunction(){
 return "a key was pressed"
 }
-
-onkeydown(otherfunction(e){
-          
+keydown(otherfunction(e){         
 })
