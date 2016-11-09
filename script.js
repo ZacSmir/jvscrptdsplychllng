@@ -13,7 +13,7 @@ $("#prething").append(formattedExample)
 //-----------------------------------------------
 //FUNCTIONS
 function math(number){
-return number + 1
+  return number + 1
 }
 
 var functionsusethis = math.toString()
