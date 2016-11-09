@@ -28,5 +28,6 @@ var formattedExample = $("<pre>")
 
 formattedExample.text(usethis)
 
+$("#functionthing").append(otherformattedExample)
 
 $("#prething").append(formattedExample)
