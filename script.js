@@ -1,10 +1,9 @@
 // CONSOLE.LOG
-function logArgs(args) {
-  var a = 1
+function consolelogging() {
   console.log(args)
 }
 
-var usethis = logArgs.toString()
+var usethis = consolelogging.toString()
 
 var formattedExample = $("<pre>")
 
