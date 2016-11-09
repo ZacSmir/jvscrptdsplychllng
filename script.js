@@ -12,7 +12,11 @@ function math(number){
 return number + 1
 }
 
-var functionsusethis = 
+var functionsusethis = math.toString()
+
+var otherformattedExample = $("<pre>")
+
+otherformattedExample.text(functionsusethis)
 
 var functionString = "how do I get the function as a string?"
 
