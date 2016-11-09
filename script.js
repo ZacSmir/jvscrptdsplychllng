@@ -4,27 +4,19 @@ function logArgs(args) {
   console.log(args)
 }
 
-console.log(logArgs.toString())
-
-var usethis = logArgs.toString()
-
 function math(number){
 return number + 1
 }
+
+var usethis = logArgs.toString()
 
 var functionsusethis = math.toString()
 
 var otherformattedExample = $("<pre>")
 
-otherformattedExample.text(functionsusethis)
-
-var functionString = "how do I get the function as a string?"
-
-
-
 var formattedExample = $("<pre>")
 
-
+otherformattedExample.text(functionsusethis)
 
 formattedExample.text(usethis)
 
