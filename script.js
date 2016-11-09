@@ -31,4 +31,4 @@ $("#functionthing").append(otherformattedExample)
 //$("#stuff").keydown(otherfunction(e){ })
 //----------------------------------------
 //Jquery
-$("#divID").val()
+$("#divID").val() //is a Jquery command that allows for 
