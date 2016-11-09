@@ -25,8 +25,7 @@ otherformattedExample.text(functionsusethis)
 $("#functionthing").append(otherformattedExample)
 //-----------------------------------------------
 //Function(Function)
-function otherfunction(){
-return "a key was pressed"
-}
-$("#stuff").keydown(otherfunction(e){         
-})
+//function otherfunction(){
+//return "a key was pressed"
+//}
+//$("#stuff").keydown(otherfunction(e){ })
