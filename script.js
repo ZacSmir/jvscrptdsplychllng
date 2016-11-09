@@ -32,3 +32,12 @@ $("#functionthing").append(otherformattedExample)
 //----------------------------------------
 //Jquery
 $("#divID").val() //is a Jquery command that allows for getting the value of ID's of Divs in HTML
+
+
+
+var something = "moo"
+
+something.text(<div class="col-xs-6">
+               </div>)
+
+               
