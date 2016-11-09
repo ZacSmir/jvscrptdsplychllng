@@ -8,7 +8,11 @@ console.log(logArgs.toString())
 
 var usethis = logArgs.toString()
 
+function math(number){
+return number + 1
+}
 
+var functionsusethis = 
 
 var functionString = "how do I get the function as a string?"
 
