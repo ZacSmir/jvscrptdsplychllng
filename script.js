@@ -11,7 +11,7 @@ var formattedExample = $("<pre>")
 formattedExample.text(usethis)
 
 $("#prething").append(formattedExample)
-//-------------------------
+//-----------------------------------------------
 //FUNCTIONS
 function math(number){
 return number + 1
@@ -24,4 +24,6 @@ var otherformattedExample = $("<pre>")
 otherformattedExample.text(functionsusethis)
 
 $("#functionthing").append(otherformattedExample)
-
+//-----------------------------------------------
+//Function(Function)
+function functioninafunction(){}
