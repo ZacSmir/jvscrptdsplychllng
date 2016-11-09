@@ -25,4 +25,8 @@ otherformattedExample.text(functionsusethis)
 $("#functionthing").append(otherformattedExample)
 //-----------------------------------------------
 //Function(Function)
-function functioninafunction(){}
+function otherfunction(){
+return a
+}
+
+function functioninafunction(otherfunction){}
