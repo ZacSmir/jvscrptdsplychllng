@@ -58,7 +58,13 @@
           It is possible to pass a function into a function, this lets you call a function when something else happens, it is very useful for situation where you don't know when someting will happen.
         </div>
         <div class="col-xs-5 text-center">
-          
+          <pre>
+function otherfunction(){
+  return "a key was pressed"
+  }
+$("#stuff").keydown(otherfunction(e){         
+})
+          </pre>
         </div>
       </div>
     </div>
