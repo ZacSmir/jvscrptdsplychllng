@@ -33,11 +33,25 @@ $("#functionthing").append(otherformattedExample)
 //Jquery
 $("#divID").val() //is a Jquery command that allows for getting the value of ID's of Divs in HTML
 
+var customeffect = $("#customeffect")
+
+function animateText(){
+  customeffect.animate({fontSize: '30px'}, {
+    duration:2000,
+    complete: function() {
+      customeffect.animate({fontSize: '17px'},{
+        duration:2000,
+        complete: function() {
+          animateText()
+        }
+      });
+    }
+  });
+}
+
+animateText()
 
 
-var something = "moo"
 
-something.text(<div class="col-xs-6">
-               </div>)
 
                
