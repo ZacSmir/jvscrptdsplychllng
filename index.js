@@ -1,10 +1,12 @@
 console.log("Zubat")
 
 
-setInterval(function(){
+function scrollBottom(){
 $("html, body").animate({ scrollTop: $(document).height() }, "slow");
 return false;
   console.log("mooshroom")
-, 1000}, 100)
+}
+
+setInterval(scrollBottom, 100)
 
 
