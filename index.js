@@ -7,6 +7,6 @@ return false;
   console.log("mooshroom")
 }
 
-setInterval(scrollBottom, 100)
+//setInterval(scrollBottom, 100)
 
 
