@@ -5,4 +5,6 @@ $("html, body").animate({ scrollTop: $(document).height() }, "slow");
 return false;
   console.log("mooshroom")
 }
+
+
 soandso()
